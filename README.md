@@ -4,7 +4,7 @@
    ```git clone https://github.com/CodeAnk2829/Todo.git```
 2. Install dependencies and run your server
    ```
-   cd Todo.git
+   cd Todo
    npm install
    npm run dev
    ```
