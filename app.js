@@ -4,7 +4,10 @@ import mongoose from "mongoose";
 import _ from "lodash";
 
 const PORT = process.env.PORT || 3000;
+<<<<<<< HEAD
 
+=======
+>>>>>>> af41c98d944398eb42bf21849df8cb7cdc6d0a34
 const app = express();
 let items = ["Buy food", "Cook food", "Eat food"];
 
@@ -115,4 +118,8 @@ app.get("/:customListName", async (req, res) => {
 });
 
 
+<<<<<<< HEAD
 app.listen(PORT, ()=>console.log("Server is running on port 3000..."));
+=======
+app.listen(PORT, ()=>console.log("Server is running on port 3000..."));
+>>>>>>> af41c98d944398eb42bf21849df8cb7cdc6d0a34
